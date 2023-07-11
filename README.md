@@ -69,7 +69,7 @@ https://lookerstudio.google.com/s/nB_GDX1CYq8
 
 ## Architecture Diagram
 
-<img src ="https://github.com/sandy0298/Aviation_real_time_streaming/blob/main/aviation_data_final.png" width="800" height="600" alt="architecture"/> &emsp;
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/credit_card_architecture.png" width="800" height="700" alt="architecture"/> &emsp;
 
 ### Code structure
 ```
