@@ -63,8 +63,9 @@ This GitHub project demonstrates a sophisticated credit card fraud transaction d
 
 ## Dashboard
 
-<img src = "https://github.com/sandy0298/Aviation_real_time_streaming/blob/main/images/report1.jpg" width="800" height="600" alt="report1"/> &emsp;
-<img src ="https://github.com/sandy0298/Aviation_real_time_streaming/blob/main/images/report2.jpg" width="800" height="600" alt="report2"/> &emsp;
+<img src = "https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(8).png" width="800" height="600" alt="report1"/> &emsp;
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(9).png" width="800" height="600" alt="report2"/> &emsp;
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(10).png" width="800" height="600" alt="report2"/> &emsp;
 
 ## Link to Dashboard
 
