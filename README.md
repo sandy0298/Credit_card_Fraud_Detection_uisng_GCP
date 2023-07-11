@@ -1,4 +1,4 @@
-# Credit_card_Fraud_Detection_uisng_GCP
+# Credit Card Fraud Detection Using GCP
 This project aims to develop a comprehensive credit card fraud transaction detection system for Global Bank Limited. The system leverages historical financial and demographic data to train a machine learning model using BigQuery Machine Learning (BQML). The trained model is deployed on Vertex AI Endpoint, enabling real-time fraud prediction on incoming credit card transactions. The project also incorporates data streaming, storage, incident handling, and reporting components to provide a holistic solution for fraud detection and prevention.
 
 ## Toolbox 🧰
