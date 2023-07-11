@@ -68,27 +68,46 @@ This GitHub project demonstrates a sophisticated credit card fraud transaction d
 
 ## Link to Dashboard
 
-## Non-fraud data dashboard
+## Fraud data dashboard
+https://lookerstudio.google.com/reporting/0c7642cd-4159-4fb6-a601-ef2c2ebb37dd
+
+## Non-Fraud Data Dashboard
 https://lookerstudio.google.com/reporting/0bd09fe9-0f04-4acb-a8f5-617ad1d4c80b
-
-## Fraud Data Dashboard
-https://lookerstudio.google.com/reporting/78f4d045-5466-49d2-acff-055eee38098a
-
 
 ### Code structure
 ```
 ├── Home Directory
-|     ├── pubsub_aviation.py
+|     ├── transaction_pubsub.py
 |     ├── Datastreaming_ingestion.py
-
+├── setup.py
  
 ```
 ## Installation Steps and deployment process
-<b>1.</b>For running Dataflow We need to install Java Jdk 8 on the master node. For that we are making use of GCS Bucket to hold the JDk 8 Package and installing the dependency at run time on the master Node.<br>
-<b>2.</b>first we need to run our Dataflow Pipeline script i.e datastreaming.py which will build the streaming pipeline for data ingestion activity to bigquery with a fixed window session of 50 seconds i.e data from the pubsub will be pulled to dataflow and will be ingested to bigquery in realtime. <br>
-<b>3.</b> Then we need to run the pubsub_aviation.py script as it will publish the json Paylod from aviation API to the Pub/Sub topic. we have defined a sleep timer of 10 seconds in the code.<br>
-<b>4.</b>For security purpose we are making use of Gcp Secret Manager to hold the Aviation Access API and are fetching them at run time.<br>
-<b>5.</b>We are holding the Schema of Big Query Tables in our dataflow pipeline code.<br>
-<b>6.</b> Data from Bigquery is ingested to looker studio and insights are generated with some KPIs. <br>
+
+## 1. Run the streaming dataflow Pipeline (datastream_ingestion.py):
+   a. Start the dataflow_ingestion.py script, which initiates the streaming dataflow pipeline.
+   b. The pipeline is designed to continuously pull data from a pub/sub subscriber.
+   c. The pulled data is then stored in Firestore, a NoSQL document database.
+   d. Within the pipeline, various operations can be performed on the data, including predictions using machine learning models or any other required transformations.
+
+## 2. Load transaction records to pub/sub (transaction_pubsub.py):
+   a. Execute the transaction_pubsub.py script to load transaction records into a pub/sub topic.
+   b. This script ensures that new transaction records are continuously published to the specified pub/sub topic in real-time.
+   c. These records will be processed by downstream components, such as the streaming dataflow pipeline.
+
+## 3. Trigger cloud function on fraud record from pub/sub:
+   a. Deploy a cloud function that is designed to trigger when a fraud record is detected within the pub/sub topic.
+   b. Configure the cloud function to listen to the specific pub/sub topic where the fraud records are published.
+   c. When a new fraud record is detected, the cloud function is triggered automatically.
+   d. The cloud function can then execute custom logic, such as sending email notifications or creating ServiceNow tickets based on the detected fraud.
+
+## 4. Create email notifications and ServiceNow tickets:
+   a. Within the cloud function triggered by the fraud record, include the necessary code to send email notifications.
+   b. Utilize appropriate email sending APIs or services to compose and send the notifications to relevant stakeholders.
+   c. Similarly, within the cloud function, integrate with the ServiceNow API to create new tickets based on the fraud record.
+   d. Provide the required details and fields to create a new ticket with relevant information about the fraud incident.
+   e. Ensure proper error handling and logging mechanisms are in place to track the status and outcomes of the email notifications and ServiceNow ticket creation.
+
+These steps outline the process of deploying and running the necessary components to handle the streaming dataflow pipeline, pub/sub integration, fraud detection triggering, and subsequent email notifications and ServiceNow ticket creation.
 
 
