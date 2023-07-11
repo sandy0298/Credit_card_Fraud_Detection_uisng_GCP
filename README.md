@@ -15,6 +15,9 @@ This project aims to develop a comprehensive credit card fraud transaction detec
 <img src ="https://i.pinimg.com/originals/8d/39/f3/8d39f3958e82028615cdedacb496a114.jpg" width="170" height="100" alt="SMTP"/> &emsp;
 <img src ="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="170" height="100" alt="Python"/> &emsp;
 
+## Architecture Diagram
+
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/credit_card_architecture.png" width="900" height="700" alt="architecture"/> &emsp;
 
 ## Project Workflow:
 
@@ -67,9 +70,7 @@ This GitHub project demonstrates a sophisticated credit card fraud transaction d
 
 https://lookerstudio.google.com/s/nB_GDX1CYq8
 
-## Architecture Diagram
 
-<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/credit_card_architecture.png" width="800" height="700" alt="architecture"/> &emsp;
 
 ### Code structure
 ```
