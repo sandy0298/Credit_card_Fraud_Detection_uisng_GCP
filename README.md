@@ -68,8 +68,11 @@ This GitHub project demonstrates a sophisticated credit card fraud transaction d
 
 ## Link to Dashboard
 
-https://lookerstudio.google.com/s/nB_GDX1CYq8
+## Non-fraud data dashboard
+https://lookerstudio.google.com/reporting/0bd09fe9-0f04-4acb-a8f5-617ad1d4c80b
 
+## Fraud Data Dashboard
+https://lookerstudio.google.com/reporting/78f4d045-5466-49d2-acff-055eee38098a
 
 
 ### Code structure
