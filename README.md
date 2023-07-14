@@ -17,7 +17,7 @@ This project aims to develop a comprehensive credit card fraud detection system 
 
 ## Architecture Diagram
 
-<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/credit_card_architecture.png" width="900" height="700" alt="architecture"/> &emsp;
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/arch.png" width="900" height="700" alt="architecture"/> &emsp;
 
 ## Project Workflow:
 
@@ -70,9 +70,9 @@ The credit card fraud detection system developed for Transpe Limited combines ma
 
 ## Dashboard
 
-<img src = "https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(8).png" width="800" height="600" alt="report1"/> &emsp;
-<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(9).png" width="800" height="600" alt="report2"/> &emsp;
-<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(10).png" width="800" height="600" alt="report2"/> &emsp;
+<img src = "https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(18).png" width="800" height="600" alt="report1"/> &emsp;
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(19).png" width="800" height="600" alt="report2"/> &emsp;
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(20).png" width="800" height="600" alt="report2"/> &emsp;
 
 ## Link to Dashboard
 
