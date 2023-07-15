@@ -68,6 +68,10 @@ This project aims to develop a comprehensive credit card fraud detection system 
 
 The credit card fraud detection system developed for Transpe Limited combines machine learning, stream processing, cloud infrastructure, and automated alerts to proactively identify and handle fraudulent transactions. By leveraging historical data, real-time prediction models, and advanced analytics, Transpe enhances security, protects customers, and reduces financial risks associated with credit card fraud. The incorporation of Looker Dashboards further enables efficient monitoring and analysis of transaction data, empowering Transpe to stay ahead in the fight against fraudulent activities.
 
+## Data reference : 
+
+https://lnkd.in/dHWktGf3
+
 ## Dashboard
 
 <img src = "https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(18).png" width="800" height="600" alt="report1"/> &emsp;
