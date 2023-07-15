@@ -95,8 +95,8 @@ https://lookerstudio.google.com/reporting/91c4bff5-7ec0-4149-8095-3acba2cfa0f6
 ### Code structure
 ```
 ├── Home Directory
-|     ├── transaction_pubsub.py
-|     ├── Datastreaming_ingestion.py
+|     ├── Transaction_pubsub.py
+|     ├── Transaction_Pipeline.py
 ├── setup.py
  
 ```
