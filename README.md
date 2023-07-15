@@ -74,6 +74,9 @@ The credit card fraud detection system developed for Transpe Limited combines ma
 <img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(19).png" width="800" height="600" alt="report2"/> &emsp;
 <img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/Screenshot%20(20).png" width="800" height="600" alt="report2"/> &emsp;
 <img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/servicenow.png" width="800" height="600" alt="report2"/> &emsp;
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/bank_email.png" width="800" height="600" alt="report2"/> &emsp;
+<img src ="https://github.com/sandy0298/Credit_card_Fraud_Detection_uisng_GCP/blob/main/screenshots/bank_email_2.png" width="800" height="600" alt="report2"/> &emsp;
+
 
 ## Link to Dashboard
 
